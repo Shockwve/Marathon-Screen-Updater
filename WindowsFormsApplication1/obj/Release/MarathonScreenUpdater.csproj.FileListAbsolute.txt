@@ -1,0 +1,9 @@
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Release\MarathonScreenUpdater.exe.config
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Release\MarathonScreenUpdater.exe
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Release\MarathonScreenUpdater.pdb
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Release\MarathonScreenUpdater.csprojAssemblyReference.cache
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.MainWindow.resources
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Release\MarathonScreenUpdater.Properties.Resources.resources
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Release\MarathonScreenUpdater.csproj.GenerateResource.cache
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Release\MarathonScreenUpdater.exe
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Release\MarathonScreenUpdater.pdb

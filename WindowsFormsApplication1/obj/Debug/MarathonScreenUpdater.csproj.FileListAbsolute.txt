@@ -1,0 +1,18 @@
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.csprojResolveAssemblyReference.cache
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainWindow.resources
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\pwinters\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.csproj.GenerateResource.Cache
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Debug\MarathonScreenUpdater.exe.config
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Debug\MarathonScreenUpdater.exe
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Debug\MarathonScreenUpdater.pdb
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainWindow.resources
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.Properties.Resources.resources
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.csproj.GenerateResource.cache
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.exe
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.pdb
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.csprojAssemblyReference.cache
