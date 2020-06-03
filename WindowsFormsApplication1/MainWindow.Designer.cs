@@ -43,28 +43,25 @@
             this.nextButton = new System.Windows.Forms.Button();
             this.categoryTextbox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // runnerTextbox
             // 
-            this.runnerTextbox.Location = new System.Drawing.Point(73, 12);
+            this.runnerTextbox.Location = new System.Drawing.Point(322, 6);
             this.runnerTextbox.Name = "runnerTextbox";
             this.runnerTextbox.Size = new System.Drawing.Size(175, 20);
             this.runnerTextbox.TabIndex = 0;
             // 
             // gameTextBox
             // 
-            this.gameTextBox.Location = new System.Drawing.Point(73, 38);
+            this.gameTextBox.Location = new System.Drawing.Point(322, 32);
             this.gameTextBox.Name = "gameTextBox";
             this.gameTextBox.Size = new System.Drawing.Size(175, 20);
             this.gameTextBox.TabIndex = 1;
             // 
             // estTextbox
             // 
-            this.estTextbox.Location = new System.Drawing.Point(73, 64);
+            this.estTextbox.Location = new System.Drawing.Point(322, 58);
             this.estTextbox.Name = "estTextbox";
             this.estTextbox.Size = new System.Drawing.Size(175, 20);
             this.estTextbox.TabIndex = 2;
@@ -72,7 +69,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Location = new System.Drawing.Point(261, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 3;
@@ -81,7 +78,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 41);
+            this.label2.Location = new System.Drawing.Point(261, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 4;
@@ -90,7 +87,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 67);
+            this.label3.Location = new System.Drawing.Point(261, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 5;
@@ -98,7 +95,7 @@
             // 
             // scheduleLocationTextbox
             // 
-            this.scheduleLocationTextbox.Location = new System.Drawing.Point(73, 116);
+            this.scheduleLocationTextbox.Location = new System.Drawing.Point(322, 110);
             this.scheduleLocationTextbox.Name = "scheduleLocationTextbox";
             this.scheduleLocationTextbox.ReadOnly = true;
             this.scheduleLocationTextbox.Size = new System.Drawing.Size(145, 20);
@@ -107,7 +104,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 121);
+            this.label4.Location = new System.Drawing.Point(261, 115);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 7;
@@ -115,7 +112,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(224, 116);
+            this.button1.Location = new System.Drawing.Point(473, 110);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 23);
             this.button1.TabIndex = 8;
@@ -155,7 +152,7 @@
             // 
             // categoryTextbox
             // 
-            this.categoryTextbox.Location = new System.Drawing.Point(73, 90);
+            this.categoryTextbox.Location = new System.Drawing.Point(322, 84);
             this.categoryTextbox.Name = "categoryTextbox";
             this.categoryTextbox.Size = new System.Drawing.Size(175, 20);
             this.categoryTextbox.TabIndex = 12;
@@ -163,26 +160,17 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 93);
+            this.label5.Location = new System.Drawing.Point(261, 87);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 13;
             this.label5.Text = "Category";
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Location = new System.Drawing.Point(15, 381);
-            this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Size = new System.Drawing.Size(233, 100);
-            this.splitContainer1.SplitterDistance = 118;
-            this.splitContainer1.TabIndex = 14;
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 507);
-            this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.categoryTextbox);
             this.Controls.Add(this.nextButton);
@@ -200,8 +188,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainWindow";
             this.Text = "MarathonScreenUpdater";
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,7 +209,6 @@
         private System.Windows.Forms.Button nextButton;
         private System.Windows.Forms.TextBox categoryTextbox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.SplitContainer splitContainer1;
     }
 }
 

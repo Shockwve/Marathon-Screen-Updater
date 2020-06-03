@@ -16,3 +16,6 @@ D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\
 D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.exe
 D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.pdb
 D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.csprojAssemblyReference.cache
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\irl\Coding Projects\MarathonScreenUpdater\WindowsFormsApplication1\obj\Debug\MarathonScreenUpdater.csproj.CopyComplete
