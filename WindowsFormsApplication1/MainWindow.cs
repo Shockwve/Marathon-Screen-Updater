@@ -11,14 +11,26 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
+    public enum CSVCOL_KEYS
+    {
+        SCHEDULED = 0,
+        LENGTH,
+        GAME,
+        CATEGORY,
+        RUNNER,
+        RUNNER_PRONOUNS,
+        HOST,
+        HOST_PRONOUNS,
+        COMMENTATOR_1,
+        COMMENTATOR_2,
+        GAME_CATEGORY_SYSTEM 
+    }
+
     public partial class MainWindow : Form
     {
         private int currentLine = 0;
-        private int currentX = 12;
-        private int currentY = 15;
         private List<String> scheduleLines = new List<string>();
         private String workingDirectory = System.IO.Directory.GetCurrentDirectory() + "\\MarthonScreenUpdater";
-        private String host = "";
 
         public MainWindow()
         {
@@ -43,12 +55,6 @@ namespace WindowsFormsApplication1
 
         private void UpdateOnScreenInformation()
         {
-            string runner = runnerTextbox.Text;
-            string game = gameTextBox.Text;
-            string estimate = estTextbox.Text;
-            string category = categoryTextbox.Text;
-
-            File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\info.txt", runner + "\n\n" + game + "\n\n" + estimate + "\n\n" + category);
             WriteToFiles();
         }
 
@@ -57,12 +63,21 @@ namespace WindowsFormsApplication1
             string information = scheduleLines.ElementAt<string>(lineNum).Replace("\"", "");
             string[] splitText = information.Split(';');
 
-            runnerTextbox.Text = splitText[3];
+            runnerTextbox.Text = splitText[(int)CSVCOL_KEYS.RUNNER];
+            runnerPronounsTextBox.Text = splitText[(int)CSVCOL_KEYS.RUNNER_PRONOUNS];
 
-            gameTextBox.Text = splitText[2].Split('-')[0];
-            estTextbox.Text = splitText[1];
-            categoryTextbox.Text = splitText[2].Split('-')[1];
-            
+            gameTextBox.Text = splitText[(int)CSVCOL_KEYS.GAME];
+            estTextbox.Text = splitText[(int)CSVCOL_KEYS.LENGTH];
+            categoryTextbox.Text = splitText[(int)CSVCOL_KEYS.CATEGORY];
+
+            hostTextBox.Text = splitText[(int)CSVCOL_KEYS.HOST];
+            hostPronounsTextBox.Text = splitText[(int)CSVCOL_KEYS.HOST_PRONOUNS];
+
+            comms1TextBox.Text = splitText[(int)CSVCOL_KEYS.COMMENTATOR_1];
+            comms2TextBox.Text = splitText[(int)CSVCOL_KEYS.COMMENTATOR_2];
+
+            comms1PronounsTextBox.Text = "";
+            comms2PronounsTextBox.Text = "";
         }
 
         private void prevButton_Click(object sender, EventArgs e)
@@ -124,22 +139,21 @@ namespace WindowsFormsApplication1
                 scheduleLines = File.ReadAllLines(scheduleLocationTextbox.Text).ToList<string>();
                 scheduleLines.RemoveAt(0);
             }
-
-
         }
 
         private void WriteToFiles()
         {
             File.WriteAllText(workingDirectory + "\\runner.txt", runnerTextbox.Text);
+            File.WriteAllText(workingDirectory + "\\runnerPronouns.txt", runnerPronounsTextBox.Text);
             File.WriteAllText(workingDirectory + "\\category.txt", categoryTextbox.Text);
-            File.WriteAllText(workingDirectory + "\\time.txt", estTextbox.Text);
+            File.WriteAllText(workingDirectory + "\\estimate.txt", estTextbox.Text);
             File.WriteAllText(workingDirectory + "\\game.txt", gameTextBox.Text);
-            File.WriteAllText(workingDirectory + "\\host.txt", host);
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            File.WriteAllText(workingDirectory + "\\host.txt", hostTextBox.Text);
+            File.WriteAllText(workingDirectory + "\\hostPronouns.txt", hostPronounsTextBox.Text);
+            File.WriteAllText(workingDirectory + "\\commentator1.txt", comms1TextBox.Text);
+            File.WriteAllText(workingDirectory + "\\commentator1Pronouns.txt", comms1PronounsTextBox.Text);
+            File.WriteAllText(workingDirectory + "\\commentator2.txt", comms2TextBox.Text);
+            File.WriteAllText(workingDirectory + "\\commentator2Pronouns.txt", comms2PronounsTextBox.Text);
         }
     }
 }
