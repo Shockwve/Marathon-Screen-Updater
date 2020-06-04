@@ -63,7 +63,7 @@ namespace WindowsFormsApplication1
             string information = scheduleLines.ElementAt<string>(lineNum).Replace("\"", "");
             string[] splitText = information.Split(';');
 
-            runnerTextbox.Text = splitText[(int)CSVCOL_KEYS.RUNNER];
+            /*runnerTextbox.Text = splitText[(int)CSVCOL_KEYS.RUNNER];
             runnerPronounsTextBox.Text = splitText[(int)CSVCOL_KEYS.RUNNER_PRONOUNS];
 
             gameTextBox.Text = splitText[(int)CSVCOL_KEYS.GAME];
@@ -77,7 +77,7 @@ namespace WindowsFormsApplication1
             comms2TextBox.Text = splitText[(int)CSVCOL_KEYS.COMMENTATOR_2];
 
             comms1PronounsTextBox.Text = "";
-            comms2PronounsTextBox.Text = "";
+            comms2PronounsTextBox.Text = "";*/
         }
 
         private void prevButton_Click(object sender, EventArgs e)
@@ -143,17 +143,7 @@ namespace WindowsFormsApplication1
 
         private void WriteToFiles()
         {
-            File.WriteAllText(workingDirectory + "\\runner.txt", runnerTextbox.Text);
-            File.WriteAllText(workingDirectory + "\\runnerPronouns.txt", runnerPronounsTextBox.Text);
-            File.WriteAllText(workingDirectory + "\\category.txt", categoryTextbox.Text);
-            File.WriteAllText(workingDirectory + "\\estimate.txt", estTextbox.Text);
-            File.WriteAllText(workingDirectory + "\\game.txt", gameTextBox.Text);
-            File.WriteAllText(workingDirectory + "\\host.txt", hostTextBox.Text);
-            File.WriteAllText(workingDirectory + "\\hostPronouns.txt", hostPronounsTextBox.Text);
-            File.WriteAllText(workingDirectory + "\\commentator1.txt", comms1TextBox.Text);
-            File.WriteAllText(workingDirectory + "\\commentator1Pronouns.txt", comms1PronounsTextBox.Text);
-            File.WriteAllText(workingDirectory + "\\commentator2.txt", comms2TextBox.Text);
-            File.WriteAllText(workingDirectory + "\\commentator2Pronouns.txt", comms2PronounsTextBox.Text);
+            
         }
     }
 }
